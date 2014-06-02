@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BNRViewController">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BNRQuizViewController">
             <connections>
                 <outlet property="answerLable" destination="Sbv-3p-Obp" id="fmh-eh-3Zm"/>
                 <outlet property="questionLable" destination="T9o-wp-UxM" id="MCi-Sq-QkF"/>
