@@ -19,6 +19,8 @@
 		8DF18C6F193CE33F00FD132C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF18C57193CE33F00FD132C /* UIKit.framework */; };
 		8DF18C77193CE33F00FD132C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DF18C75193CE33F00FD132C /* InfoPlist.strings */; };
 		8DF18C79193CE33F00FD132C /* QuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF18C78193CE33F00FD132C /* QuizTests.m */; };
+		8DF18C8A193CE53E00FD132C /* BNRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF18C88193CE53E00FD132C /* BNRViewController.m */; };
+		8DF18C8B193CE53E00FD132C /* BNRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DF18C89193CE53E00FD132C /* BNRViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		8DF18C74193CE33F00FD132C /* QuizTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuizTests-Info.plist"; sourceTree = "<group>"; };
 		8DF18C76193CE33F00FD132C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8DF18C78193CE33F00FD132C /* QuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizTests.m; sourceTree = "<group>"; };
+		8DF18C87193CE53E00FD132C /* BNRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRViewController.h; sourceTree = "<group>"; };
+		8DF18C88193CE53E00FD132C /* BNRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRViewController.m; sourceTree = "<group>"; };
+		8DF18C89193CE53E00FD132C /* BNRViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				8DF18C63193CE33F00FD132C /* BNRAppDelegate.m */,
 				8DF18C65193CE33F00FD132C /* Images.xcassets */,
 				8DF18C5A193CE33F00FD132C /* Supporting Files */,
+				8DF18C87193CE53E00FD132C /* BNRViewController.h */,
+				8DF18C88193CE53E00FD132C /* BNRViewController.m */,
+				8DF18C89193CE53E00FD132C /* BNRViewController.xib */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
@@ -220,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DF18C8B193CE53E00FD132C /* BNRViewController.xib in Resources */,
 				8DF18C5E193CE33F00FD132C /* InfoPlist.strings in Resources */,
 				8DF18C66193CE33F00FD132C /* Images.xcassets in Resources */,
 			);
@@ -242,6 +251,7 @@
 			files = (
 				8DF18C60193CE33F00FD132C /* main.m in Sources */,
 				8DF18C64193CE33F00FD132C /* BNRAppDelegate.m in Sources */,
+				8DF18C8A193CE53E00FD132C /* BNRViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
